@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . "/src/funcoes.php";
+require __DIR__ . "/src/modelo/filme.php";
 
 echo "Bem-vindo(a) ao screen match!\n";
 
@@ -48,7 +49,7 @@ $filme = criarFilme(
     genero: "super-heroi"
 );
 
-echo $filme["ano"]."\n";
+echo $filme->anoLancamento."\n";
 
 if (!empty($notas)) {
     $menorNota = min($notas);
