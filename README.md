@@ -1,0 +1,1 @@
+comando para iniciar o projeto: php -S 0.0.0.0:8000 -t publicic
